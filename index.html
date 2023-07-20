@@ -2,28 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header>
+    <h1>
+      <span class="main-title text-thin">
+        Reliable, efficient delivery
+      </span>
+      <span class="man-title text-bold">
+        Powered by Technology
+      </span>
+      <p class="subtitle text-light">
+        Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful
+      </p>
+    </h1>
+  </header>
+  <main>
+    <section class="cards">
+      <div class="card card--cyan card--left">
+        <h2 class="card-title">Supervisor</h2>
+        <p class="card__text">Monitors activity to identify project roadblocks</p>
+        <img src="./src/images/icon-supervisor.svg" alt="logo-supervisor" class="card-icon">
+      </div>
+      <div class="card card--red card--top">
+        <h2 class="card-title">Supervisor</h2>
+        <p class="card__text">Monitors activity to identify project roadblocks</p>
+        <img src="./src/images/icon-team-builder.svg" alt="logo-team-builder" class="card-icon">
+      </div>
+      <div class="card card--orange card--bottom">
+        <h2 class="card-title">Supervisor</h2>
+        <p class="card__text">Monitors activity to identify project roadblocks</p>
+        <img src="./src/images/icon-karma.svg" alt="logo-karma" class="card-icon">
+      </div>
+      <div class="card card--blue card--right">
+        <h2 class="card-title">Supervisor</h2>
+        <p class="card__text">Monitors activity to identify project roadblocks</p>
+        <img src="./src/images/icon-calculator.svg" alt="logo-calculator" class="card-icon">
+      </div>
+
+    </section>
+  </main>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
+  
+  
 
   Team Builder
   Scans our talent network to create the optimal team for your project
@@ -33,6 +59,10 @@
 
   Calculator
   Uses data from past projects to provide better delivery estimates
+
+
+
+
 
   
   <footer>
