@@ -3,13 +3,12 @@
 :root {
     --Red: hsl(0, 78%, 62%);
     --Cyan: hsl(180, 62%, 55%);
-    --Orange: hsl(34, 64.5%, 29.8%);
+    --Orange: hsl(34, 85%, 52%);
     --Blue: hsl(212, 86%, 64%);
     --Very-Dark-Blue: hsl(234, 12%, 34%);
     --Grayish-Blue: hsl(229, 6%, 66%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
 }
-
 *,
 *::after,
 *::before {
@@ -17,15 +16,84 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    background-color: var(--Very-Light-Gray);
+}
+.header-container {
+    width: 300px;
+    height: 160px;
+    margin: 92px auto 75px;
+}
+.header__title-text {
+    font-size: 24px;
+    text-align: center;
+    color: var(--Very-Dark-Blue);
+}
+.header__title-text--thin {
+    font-weight: 200;
+}
+.header__title-text--bold {
+    font-weight: 600;
+    margin-top: 14px;
+}
+.header__title-subtitle-text--light {
+    font-size: 16px;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    margin-top: 14px;
+    line-height: 25px;
+    letter-spacing: -.3px;
 }
 
+.main__cards-container__card{
+    width: 314px;
+    height: 220px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 28px 27px 30px;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 26px;
+    box-shadow: 1px 18px 29px -12px rgba(146,149,181,0.45);
+    position: relative;
+}
+.card-cyan-left {
+    border-top: 3px solid var(--Cyan);
+}
+.card-red-top {
+    border-top: 3px solid var(--Red);
+}
+.card-orange-bottom {
+    border-top: 3px solid var(--Orange);
+}
+.card-blue-right {
+    border-top: 3px solid var(--Blue);
+}
+.main__cards-container__card-title {
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 4px;
+    
+}
+.main__cards-container__card-text {
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.card-icon {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    left: 222px;
+    top: 136px;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 80px;
 }
 
 .attribution a {
