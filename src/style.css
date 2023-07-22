@@ -53,7 +53,7 @@ body {
     margin: 0 auto;
     text-align: left;
     padding: 28px 27px 30px;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px;
     margin-bottom: 26px;
     box-shadow: 1px 18px 29px -12px rgba(146,149,181,0.45);
     position: relative;
@@ -98,4 +98,73 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width:78.125rem) {
+    .header-container {
+        width: 513px;
+        height: 175px;
+        margin: 86px auto 62px
+    }
+    .header__title-text {
+        font-size: 36px;
+    }
+    .main__cards-container {
+        width: 1120px;
+        height: 540px;
+        margin: 0 auto 77px;
+        position: relative;
+    }
+    .main__cards-container__card{
+    width: 356px;
+    height: 258px;
+    margin: 0;
+    }
+    .card-cyan-left {
+        position: absolute;
+        top: 137px;
+        left: 0;
+    }
+    #cyan-text {
+        width: 228px;
+    }
+    #blue-text {
+        width: 258px;
+    }
+    .card-red-top {
+        width: 352px;
+        height: 252px;
+        position: absolute;
+        top: 0;
+        left: 381px;
+    }
+    .card-orange-bottom {
+        width: 352px;
+        height: 252px;
+        position: absolute;
+        bottom: 0;
+        left: 381px;
+    }
+
+    .card-blue-right {
+        position: absolute;
+        top: 137px;
+        right: 0;
+    }
+    .card-icon {
+        position: absolute;
+        width: 58px;
+        height: 58px;
+        right: 32px;
+        bottom: 32px;
+        left: unset;
+        top: unset;
+    }
+
+
+
+
+
+
 }
