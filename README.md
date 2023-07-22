@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution-Github Repository](https://github.com/Arfirpo/four-card-feature-section-master/)
-- Live Site URL: [Solution-Github PAge](https://arfirpo.github.io/four-card-feature-section-master/)
+- Live Site URL: [Solution-Github Page](https://arfirpo.github.io/four-card-feature-section-master/)
 
 ## My process
 
